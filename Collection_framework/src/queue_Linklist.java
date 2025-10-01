@@ -19,9 +19,5 @@ public class queue_Linklist {
         //poll------>element ko bahae nikale ka kam karega auur elements ko return bhi kar dege ki kon sa element bhar nikal  hai
 
         System.out.println();
-
-        // git remote add origin https://github.com/ayushsingh0702/Java_Collections_Framework-
-
-
     }
 }
