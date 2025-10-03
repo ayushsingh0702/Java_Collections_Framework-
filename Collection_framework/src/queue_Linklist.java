@@ -17,7 +17,26 @@ public class queue_Linklist {
         System.out.println(inti);
 
         //poll------>element ko bahae nikale ka kam karega auur elements ko return bhi kar dege ki kon sa element bhar nikal  hai
+        System.out.println(inti.poll());
 
-        System.out.println();
+        //peek--->Get head without removing
+        System.out.println(inti.peek());
+
+        //size---->get the size of the queue
+        System.out.println(inti.size());
+
+        //contains------>contaning element
+        System.out.println(inti.contains(3));
+
+
+        for(Integer num:inti){
+            System.out.println(num);
+
+        }
+        //clear
+        inti.clear();
+        System.out.println(inti);
+
+
     }
 }
